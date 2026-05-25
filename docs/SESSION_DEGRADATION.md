@@ -197,7 +197,7 @@ The following observations were recorded across real production sessions. Token 
 
 ### Threshold Calibration Implication
 
-The 30%-50% zone thresholds appear well-calibrated for Pattern 1. For Pattern 2, the effective YELLOW threshold based on these observations is closer to **25-35%** — significantly earlier than the current model predicts. This suggests the zone model may need pattern-specific thresholds in a future revision:
+The 30%-50% zone thresholds appear well-calibrated for Pattern 1. For Pattern 2, the effective YELLOW threshold based on these observations are closer to **25-35%** — significantly earlier than the current model predicts. This suggests the zone model may need pattern-specific thresholds in a future revision:
 
 - Pattern 1: 30% YELLOW / 50% RED (current thresholds — well calibrated)
 - Pattern 2: 25% YELLOW / 40% RED (empirically indicated — not yet implemented)

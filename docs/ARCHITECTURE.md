@@ -102,7 +102,7 @@ MCP tool calls without governance produce redundant API calls, unpredictable wri
 
 See [`SESSION_DEGRADATION.md`](SESSION_DEGRADATION.md) for the full model. The short version:
 
-Session degradation was defined from observed LLM failure modes — not from theory. The token percentage threshold (30%/50%) was derived from real usage patterns. The behavioral signal catalog was built from actual observed failures: context re-scanning, stale artifact re-presentation, instruction skip, wrong file state citation. Round count was the original trigger mechanism and was replaced by token percentage because round count does not account for response length — a session with five long technical responses hits the context limit faster than one with twenty short ones.
+Session degradation was defined from observed LLM failure modes — not from theory. The token percentage threshold (30%-50%) was derived from real usage patterns. The behavioral signal catalog was built from actual observed failures: context re-scanning, stale artifact re-presentation, instruction skip, wrong file state citation. Round count was the original trigger mechanism and was replaced by token percentage because round count does not account for response length — a session with five long technical responses hits the context limit faster than one with twenty short ones.
 
 ---
 

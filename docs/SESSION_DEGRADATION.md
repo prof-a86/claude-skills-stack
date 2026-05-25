@@ -197,7 +197,7 @@ The following observations were recorded across real production sessions. Token 
 
 ### Threshold Calibration Implication
 
-The 30%/50% zone thresholds appear well-calibrated for Pattern 1. For Pattern 2, the effective YELLOW threshold based on these observations is closer to **25-35%** — significantly earlier than the current model predicts. This suggests the zone model may need pattern-specific thresholds in a future revision:
+The 30%-50% zone thresholds appear well-calibrated for Pattern 1. For Pattern 2, the effective YELLOW threshold based on these observations is closer to **25-35%** — significantly earlier than the current model predicts. This suggests the zone model may need pattern-specific thresholds in a future revision:
 
 - Pattern 1: 30% YELLOW / 50% RED (current thresholds — well calibrated)
 - Pattern 2: 25% YELLOW / 40% RED (empirically indicated — not yet implemented)
@@ -208,7 +208,7 @@ This is a specific, testable hypothesis that follows from the two-pattern distin
 
 **Why 30% and 50% specifically?** These thresholds were derived from observation patterns across Pattern 1 sessions (gradual fill). The empirical observations above suggest they are well-calibrated for Pattern 1 but too conservative for Pattern 2 — Pattern 2 sessions showed first signals at 35-40%, significantly earlier than the 50% RED threshold.
 
-**Pattern-specific thresholds:** Based on observations above, Pattern 2 may require 25% YELLOW / 40% RED instead of the current 30%/50%. This is a specific testable hypothesis — validating it requires a larger sample of Pattern 2 sessions with token percentage recorded at signal onset.
+**Pattern-specific thresholds:** Based on observations above, Pattern 2 may require 25% YELLOW / 40% RED instead of the current 30%-50% threshold. This is a specific testable hypothesis — validating it requires a larger sample of Pattern 2 sessions with token percentage recorded at signal onset.
 
 **What happens between models?** Claude Sonnet and Claude Opus have different context window sizes. The same percentage represents different absolute token counts. Pattern-specific thresholds may also differ between models — a future version of this model would ideally be calibrated per model and per degradation pattern.
 

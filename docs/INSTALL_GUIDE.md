@@ -127,7 +127,7 @@ This usually means both skills are trying to handle the same behavior. Check whi
 
 ### I'm seeing two rounds of intake questions on professional requests
 
-This is expected behavior when `task-auditor` and `expert-auditor` are both active on a high-stakes professional request (cover letters, resumes, cybersecurity advice, interview prep). `task-auditor` governs session scope — it asks about format, audience, and constraints. `expert-auditor` governs SME quality — it asks about goal, existing content, and domain-specific context. Both rounds are necessary because they serve different purposes. The governor asks to prevent wasted work. The specialist asks to produce quality output. If you find the double intake too heavy for a specific use case, you can install the standalone versions of each skill — standalone skills carry their own intake logic without cross-skill coordination overhead.
+This is expected behavior when `task-auditor` and `expert-auditor` are both active on a high-stakes professional request (cover letters, resumes, cybersecurity advice, interview prep). `task-auditor` governs session scope — it asks about format, audience, and constraints. `expert-auditor` governs SME quality — it asks about goal(s), existing content, and domain-specific context. Both rounds are necessary because they serve different purposes. The governor asks to prevent wasted work. The specialist asks to produce quality output. If you find the double intake too heavy for a specific use case, you can install the standalone versions of each skill — standalone skills carry their own intake logic without cross-skill coordination overhead.
 
 ### The handoff is firing too early / too late
 

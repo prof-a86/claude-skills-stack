@@ -131,7 +131,7 @@ This is expected behavior when `task-auditor` and `expert-auditor` are both acti
 
 ### The handoff is firing too early / too late
 
-The 30%/50% thresholds are empirically derived, not precise. If they're wrong for your session patterns, edit `task-auditor` Layer 3 to adjust the zone boundaries. The behavioral signals are more reliable than the percentage thresholds — consider lowering the red threshold if you're seeing stale artifacts or instruction skips before 50%.
+The 30%-50% thresholds are empirically derived, not precise. If they're wrong for your session patterns, edit `task-auditor` Layer 3 to adjust the zone boundaries. The behavioral signals are more reliable than the percentage thresholds — consider lowering the red threshold if you're seeing stale artifacts or instruction skips before 50%.
 
 ### Skills are referencing each other but one isn't installed
 
